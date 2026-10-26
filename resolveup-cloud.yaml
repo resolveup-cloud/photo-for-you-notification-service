@@ -1,0 +1,23 @@
+version: 1
+name: photo-for-you-notification-service · Qualidade nativa
+hardware: large
+on:
+  push:
+    branches: [main, feat/cloud-ci-migration-20261026]
+  pull_request:
+  workflow_dispatch:
+artifacts:
+  path: resolveup-artifact
+  verify: true
+jobs:
+  preparar:
+    name: Preparar toolchain do CI original
+    timeout-minutes: 8
+    steps:
+      - run: bash ops/cloud-ci/prepare.sh
+  qualidade:
+    name: Executar todos os gates de qualidade originais
+    needs: preparar
+    timeout-minutes: 20
+    steps:
+      - run: bash ops/cloud-ci/quality.sh
