@@ -1,6 +1,6 @@
 version: 1
 name: photo-for-you-notification-service · Qualidade nativa
-hardware: large
+hardware: standard
 on:
   push:
     branches: [main, feat/cloud-ci-migration-20261026]
