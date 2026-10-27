@@ -1,0 +1,47 @@
+{
+  "repository": "resolveup-cloud/photo-for-you-notification-service",
+  "projectId": "resolveup-services",
+  "ciRunId": "cmvpusmmh000701omrxdl88be",
+  "ciStatus": "SUCCEEDED",
+  "sourceCommit": "380f6b7fb15b28ace19c8cccb0ee76819f2e75bb",
+  "publicationId": "cmvpwakj300044uo4dozu400e",
+  "publicationStatus": "SUCCEEDED",
+  "publicationReceipt": {
+    "kind": "registry",
+    "runId": "cmvpusmmh000701omrxdl88be",
+    "images": [
+      {
+        "tag": "ghcr.io/resolveup-cloud/photo-for-you-notification-service:sha-380f6b7fb15b28ace19c8cccb0ee76819f2e75bb",
+        "aliases": [
+          {
+            "tag": "ghcr.io/resolveup-cloud/photo-for-you-notification-service:latest",
+            "registryDigest": "sha256:c85c9a921933f2a6e2eca41fec30c1a5f9e08f3e19c408535905f9f297090ae0",
+            "registryReference": "ghcr.io/resolveup-cloud/photo-for-you-notification-service@sha256:c85c9a921933f2a6e2eca41fec30c1a5f9e08f3e19c408535905f9f297090ae0"
+          }
+        ],
+        "imageId": "sha256:97c2ff2625e204c2335753729f5e7f2989247d5626b1c1179310de350a0078cb",
+        "revision": "380f6b7fb15b28ace19c8cccb0ee76819f2e75bb",
+        "artifactId": "api",
+        "localCache": {
+          "removed": true
+        },
+        "architecture": "amd64",
+        "registryDigest": "sha256:c85c9a921933f2a6e2eca41fec30c1a5f9e08f3e19c408535905f9f297090ae0",
+        "registryReference": "ghcr.io/resolveup-cloud/photo-for-you-notification-service@sha256:c85c9a921933f2a6e2eca41fec30c1a5f9e08f3e19c408535905f9f297090ae0"
+      }
+    ],
+    "targetId": "photo-for-you-notification-service-images",
+    "commitSha": "380f6b7fb15b28ace19c8cccb0ee76819f2e75bb",
+    "finishedAt": "2026-10-27T00:09:38Z",
+    "archiveSha256": "0ea2ab39068afc09b6c90c1148eba310a48a39638dc36ea0a3369d79e8945458"
+  },
+  "retiredWorkflows": [
+    "ci-cd.yml"
+  ],
+  "remainingWorkflows": [
+    "build-artifact.yml"
+  ],
+  "archivedWorkflowSha256": {
+    "ci-cd.yml": "33fa25b62ce68e1a861ed088bfd7e8a45d41da518926c0f6882ab26608fd11fc"
+  }
+}
